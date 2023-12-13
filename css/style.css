@@ -1,0 +1,557 @@
+*{
+	margin:0;
+	padding:0;
+	overflow:inherit;
+	box-sizing:border-box;
+	font-family: 'lato';
+}
+
+ p{
+	overflow-y: scroll;
+    font-size: 17px;
+    font-weight: 400;
+	word-spacing: normal;
+	line-height: 30px;
+	text-align: justify;
+	overflow: hidden;	
+}
+.hr{
+	width: 100px;
+	height: 3px;
+	background-image: linear-gradient(to right, #025196 , white);
+	border-radius: 15%;
+	margin: auto;
+	}
+	h1,h2,h3,h4,h5{
+		/* letter-spacing: 3px; */
+		font-family: 'lato';
+		text-align: justify;
+	}
+	
+	  /* header style*/	
+	
+	/*our team our family conntact us*/
+	.masthead{
+		background-size: 100% 100%;
+		width: 100%;
+		height: 75vh;
+		
+	}
+	.content{
+		text-align: right;
+		margin-top: 100px;
+		/* margin-right: 0px; */
+	}
+	.content h1{
+			font-size: 35px;
+			font-weight: bold;
+			text-align: left;
+			color:#025196;
+	}
+	@media screen and (max-width:412px){
+	  .masthead{
+		width: 100%;
+		height:30vh;
+	}
+	.content h1{
+		text-align: left;
+		
+	}
+	.content h1{
+		  margin-top: -100px;
+		margin-left: -10px;
+		font-size: 20px;
+	}
+	
+	 }
+	
+	 @media screen and (max-width:414px){
+	  .masthead{
+	
+		width: 100%;
+		height:30vh;
+	}
+	.content h1{
+		text-align: left;
+	}
+	.content h1{
+			margin-top: -100px;
+			margin-left: -10px;
+			font-size: 20px;
+	}
+	
+	 }
+	
+	 @media screen and (max-width:540px){
+	  .masthead{
+		width: 100%;
+		height:45vh;
+	}
+	.content h1{
+		text-align: left;
+	}
+	.content h1{
+		  margin-top: -100px;
+		margin-left: -10px;
+		font-size: 20px;
+	}
+	
+	 }
+	
+	 @media screen and (max-width:912px){
+		.masthead{
+		  width: 100%;
+		  height:45vh;
+	  }
+	  .content h1{
+		  text-align: left;
+	  }
+	  .content h1{
+			margin-top: -100px;
+		  margin-left: -10px;
+		  font-size: 20px;
+	  }
+	  
+	   }
+	
+	
+	 @media screen and (max-width:1024px){
+		.masthead{
+		  width: 100%;
+		  height:45vh;
+	  }
+	  .content h1{
+		  text-align: left;
+	  }
+	  .content h1{
+			margin-top: -100px;
+		  margin-left: -10px;
+		  font-size: 20px;
+	  }
+	  
+	   }
+	
+	
+	/* navbar section */
+	.logo { width: 450px;}
+	
+		#navbar_top {
+			background-color: #000000;
+		}
+	
+	
+		#navbar_top  a{
+			color:#025196;
+			font-size: large;
+			font-weight: bold;
+		}
+		#navbar_top a.active {
+			color: #f53533;
+			
+		}
+		#navbar_top a:hover {
+			color:rgb(105, 157, 201);
+	
+		}
+	
+	/* end navbar section*/
+
+ /*index design*/
+ /* logo and website*/
+ .logoAndWebsite{
+	width: 50%;
+	margin: auto;
+	box-shadow: .5rem .5rem 2rem rgba(0, 0, 0, .2);
+	padding: 20px 30px;
+	border-radius: 10px;
+
+  }
+.logoAndWebsite p{
+	text-align: center;
+	/* color:black; */
+	font-size: 20px;
+	text-align: justify;
+	font-family: 'lato';
+}
+.logoAndWebsite p a{
+	color: #025196;
+}
+.logoAndWebsite p a:hover{
+	text-decoration: none;
+}
+
+.logoAndWebsite .socialMedia{
+	display: flex; 
+}
+.logoAndWebsite .socialMedia{
+	font-size: 30px;
+}
+.logoAndWebsite .socialMedia a i{
+	padding: 0px 5px;
+	color: #025196;
+	text-decoration: none;
+   }
+
+   .logoAndWebsite .socialMedia a i:hover{
+	color: red;
+}
+/*our mission section*/
+ .about-us{
+	background: url(../img/Our-mission.jpeg) no-repeat left;
+	background-size: 50%;
+	background-color: aliceblue;
+	overflow: hidden;
+	padding: 100px;
+	
+  } 
+   /*this section must be removed */
+  .about-us h1{
+	margin: auto;	
+	position: absolute;
+	top: 400px;
+	left: 10px;
+	font-size: 80px;
+  }
+
+  .linerar-container{
+	width: 55%;
+  	float: right;
+	background-color: #fdfdfd;
+	padding: 80px;
+  }
+  .linerar-container p{
+	font-size: 16px;
+	font-weight: 500px;
+	color:black;
+    padding:0 2rem;
+    /* line-height: 1.5em; */
+    text-align: left
+  }
+  ul.a {
+    list-style-type: circle;
+    list-style-position: inside;
+   
+  
+}
+ul.a li{
+	font-size: 16px;
+	font-weight: 500px;
+	color:black;
+    text-align: left;
+    padding:0 2rem;
+	text-align: left
+}
+
+  /* logo and website*/
+  .logoAndWebsite{
+	width: 50%;
+	margin: auto;
+	box-shadow: .5rem .5rem 2rem rgba(0, 0, 0, .2);
+	padding: 50px;
+
+  }
+.logoAndWebsite p{
+	text-align: center;
+	text-align: justify;
+}
+
+/* read more p style  */
+/* end of iindex html*/
+
+/* start leadership .html style*/
+
+
+#more1, #more2, #more3, #more4, #more5, #more6, #more7, #more8, #more9, #more10, #more11, #more12{
+	display: none;
+   } 
+  
+  .row{
+	  margin-top: 30px;
+  }
+  a{
+	  color: #e03a3c;
+	}
+	a:hover{
+	  color: #e03a3c;
+	  text-decoration: none;
+	}
+	.align-items-stretch{
+		background-color: rgb(248, 248, 248);
+		border-radius: 10px;
+		width: 100%;
+		padding:10px 10px 2px 10px;
+		box-shadow: 0 8px 6px 0 rgba(0, 0, 0, 0.37);
+	  
+	  }
+
+	.team .member{
+	  margin-bottom: 10px;
+	  overflow: hidden;
+
+	  
+	}
+	.team .member .member-img{
+	  position: relative;
+	  overflow: hidden;
+	}
+	.team .member .social{
+	  position: absolute;
+	  left: 0;
+	  bottom: 30px;
+	  right: 0;
+	  opacity: 0;
+	  transition: ease-in-out 0.3S;
+	  text-align: center;
+	}
+	.team .member:hover .social{
+		opacity: 1;
+		bottom: 15px;
+	}
+   .team .member .social a{
+	  color: #11111111;
+	  margin: 0 2px;
+	  padding-top: 7px;
+	  border-radius: 50px;
+	  width: 36px;
+	  height: 36px;
+	  background: red;
+	  display: inline-block;
+	  text-decoration: none;
+	  transition: ease-in-out 0.3s;
+	  color: #fff;
+  
+	} 
+  
+   .team .member .social a:hover{
+	  background-color:#11111111 ;
+	}
+	.team .member .social i{
+	  font-size: 18px;
+	} 
+	.team .member .member-info{
+	  padding: 25px 2px;
+	}
+  
+	.team .member .member-info h1{
+	  font-weight: bold;
+	  margin-bottom: 5px;
+	  letter-spacing: normal;
+	  text-align: left;
+	  font-size: 20px;
+	  color: black;
+	  /* letter-spacing:-0.1px; */
+	}
+	 .team .member .member-info span{
+	  font-size: 16px;
+	  font-weight: 700px;
+	  color:#025196;
+	 letter-spacing: normal;
+	  text-align: left;
+	}
+  
+	.team .member .member-info p{
+	  font-size: 16px;
+	  font-weight: 700px;
+	  color:black;
+	  text-align: left;
+	  letter-spacing: normal;
+	}
+	.team .member .member-info p span{
+	  font-size: 16px;
+	  font-weight: 500px;
+	  color:black;
+	  text-align: left;
+	  letter-spacing: normal;
+	}
+	
+   section{
+	  padding: 60px 0;
+	  overflow: hidden;
+	  position: relative;
+	}
+  
+	.section-bg{
+	  padding: 120px 0;
+	  color: #fff;
+	}
+  
+
+
+
+
+
+  /* end contact design*/
+
+/* footer style*/
+footer{
+	background-image: linear-gradient(to right, white 50%,#025196);
+	
+}
+.footer-logo{
+    width:100%;
+}
+/* end footer style*/
+
+  @media screen and (max-width: 1200px ) {
+
+	.linerar-container{
+	  padding: 10px;
+
+	}
+  }
+
+
+  @media screen and (max-width: 1000px ) {
+
+	.about-us{
+	  background-size: 100%;
+	  padding: 100px 44px;
+
+	}
+	/* this section must bee remove*/
+	.about-us h1{
+		position: absolute;
+		top: 150px;
+		left: 10px;
+	  }
+
+	.linerar-container{
+	  width: 100%;
+	}
+
+  }
+
+  @media screen and (max-width: 940px ) {
+	.card{
+		width: 85%;
+		display: flex;
+		margin: 28px 0px;
+	  }
+	
+	#navbar  a{
+		color:#4174C0;
+	
+	  }
+	  #navbar a.active {
+		color: #0462ef;
+		font-weight: bold;
+	  }
+	  #navbar a:hover {
+		color: #0462ef;
+	
+	  }
+
+	.logoAndWebsite{
+		width: 100%;
+	}
+	.contactSection{
+		background: #03a9f5;
+	}
+	.conntactUs{
+		padding: 20px;
+	}
+	.box{
+		grid-template-columns: 1fr;
+		grid-template-rows: auto;
+		grid-template-areas:
+		 "form"
+		 "info";
+		 /* "map"; */
+	}
+	
+	.formBox .row50{
+		display: flex;
+		gap: 0;
+		flex-direction: column;
+
+	}
+	.inputBox{
+		width: 100%;
+	}
+	.contact{
+		padding: 30px;
+	}
+
+	
+}
+
+  @media screen and (max-width: 800px ) {
+	#navbar  a{
+		color:#4174C0;
+	  }
+
+	  #navbar a.active {
+		color: #0462ef;
+		font-weight: bold;
+	  }
+
+	  #navbar a:hover {
+		color: #0462ef;
+	  }
+
+	.about-us{
+	  padding:0px;
+
+	}
+	/* this section must bee remove*/
+	.about-us h1{
+		position: absolute;
+		top: 150px;
+		left: 50px;
+		font-size: 50px;
+		
+		}
+ 
+	.linerar-container{
+	  padding: 60px;
+	}
+	
+	
+  }
+
+
+  @media screen and (max-width: 700px ) {
+	.crad-wrapper{
+	  flex-direction: row;
+	  flex-wrap: wrap;
+	  justify-content: center;
+	  align-items: center;
+	}
+
+	.logoAndWebsite{
+		width: 100%;
+	}
+
+	.card{
+	  margin: 2rem;
+	}
+	.navbar-toggler-icon{
+		color: #025196;
+	}
+
+}
+
+
+@media screen and (max-width: 600px ) {
+	.logo {
+		width: 190px ;
+	}
+	.formBox{
+		width: 100%;
+		
+	}
+	.crad-wrapper{
+		width: 100%;
+	  }
+	  .conntactUs{
+		padding: 0px;
+	}
+
+	
+}
+
+
+
+
+
+
