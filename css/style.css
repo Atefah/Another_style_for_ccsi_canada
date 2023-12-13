@@ -159,18 +159,18 @@
  /*index design*/
  /* logo and website*/
  .logoAndWebsite{
-	width: 50%;
+	width: 45%;
 	margin: auto;
 	box-shadow: .5rem .5rem 2rem rgba(0, 0, 0, .2);
-	padding: 20px 30px;
+	padding:30px;
 	border-radius: 10px;
 
   }
 .logoAndWebsite p{
 	text-align: center;
 	/* color:black; */
-	font-size: 20px;
-	text-align: justify;
+	font-size: 17px;
+	text-align: left;
 	font-family: 'lato';
 }
 .logoAndWebsite p a{
@@ -184,7 +184,7 @@
 	display: flex; 
 }
 .logoAndWebsite .socialMedia{
-	font-size: 30px;
+	font-size: 25px;
 }
 .logoAndWebsite .socialMedia a i{
 	padding: 0px 5px;
@@ -242,18 +242,7 @@ ul.a li{
 	text-align: left
 }
 
-  /* logo and website*/
-  .logoAndWebsite{
-	width: 50%;
-	margin: auto;
-	box-shadow: .5rem .5rem 2rem rgba(0, 0, 0, .2);
-	padding: 50px;
-
-  }
-.logoAndWebsite p{
-	text-align: center;
-	text-align: justify;
-}
+  
 
 /* read more p style  */
 /* end of iindex html*/
