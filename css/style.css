@@ -6,31 +6,16 @@
 	font-family: 'lato';
 }
 
- p{
-	overflow-y: scroll;
-    font-size: 17px;
-    font-weight: 400;
-	word-spacing: normal;
-	line-height: 30px;
-	text-align: justify;
-	overflow: hidden;	
+ body p{
+	font-size: 17px;
+	text-align: left;
+	font-family: 'lato';
+	color: #000000;	
 }
-.hr{
-	width: 100px;
-	height: 3px;
-	background-image: linear-gradient(to right, #025196 , white);
-	border-radius: 15%;
-	margin: auto;
-	}
-	h1,h2,h3,h4,h5{
-		/* letter-spacing: 3px; */
-		font-family: 'lato';
-		text-align: justify;
-	}
+
 	
-	  /* header style*/	
-	
-	/*our team our family conntact us*/
+ /* header style*/	
+
 	.masthead{
 		background-size: 100% 100%;
 		width: 100%;
@@ -40,7 +25,6 @@
 	.content{
 		text-align: right;
 		margin-top: 100px;
-		/* margin-right: 0px; */
 	}
 	.content h1{
 			font-size: 35px;
@@ -48,86 +32,102 @@
 			text-align: left;
 			color:#025196;
 	}
+	/*responsiivee*/
+	@media screen and (max-width:280px){
+		.masthead{
+			width: 100%;
+			display: block;
+		}
+		.content{
+			margin-top: 50px;
+			margin-left: 50px;
+		}
+	 }
 	@media screen and (max-width:412px){
 	  .masthead{
 		width: 100%;
-		height:30vh;
 	}
-	.content h1{
-		text-align: left;
-		
-	}
-	.content h1{
-		  margin-top: -100px;
-		margin-left: -10px;
-		font-size: 20px;
+	.content{
+		  	margin-top: 180px;
+			margin-left: 130px;
 	}
 	
 	 }
 	
-	 @media screen and (max-width:414px){
-	  .masthead{
-	
-		width: 100%;
-		height:30vh;
-	}
-	.content h1{
-		text-align: left;
-	}
-	.content h1{
-			margin-top: -100px;
-			margin-left: -10px;
-			font-size: 20px;
-	}
-	
-	 }
-	
-	 @media screen and (max-width:540px){
+	@media screen and (max-width:414px){
 	  .masthead{
 		width: 100%;
-		height:45vh;
 	}
-	.content h1{
-		text-align: left;
-	}
-	.content h1{
-		  margin-top: -100px;
-		margin-left: -10px;
-		font-size: 20px;
+
+	.content{
+		margin-top: 180px;
+		margin-left: 130px;
 	}
 	
-	 }
+}
+@media screen and (max-width:430px){
+	.masthead{
+	  width: 100%;
+  }
+  .content{
+	  margin-top: 180px;
+	  margin-left: 130px;
+  }
+  
+}
+@media screen and (max-width:768px){
+	.masthead{
+	  width: 100%;
+  }
+  .content{
+	  margin-top: 180px;
+	  margin-left: 200px;
+  }
+  
+}
+@media screen and (max-width:820px){
+.masthead{
+	  width: 100%;
+  }
+  .content{
+	  margin-top: 180px;
+	  margin-left: 200px;
+  }
+  
+}
 	
-	 @media screen and (max-width:912px){
+@media screen and (max-width:540px){
 		.masthead{
-		  width: 100%;
-		  height:45vh;
-	  }
-	  .content h1{
-		  text-align: left;
-	  }
-	  .content h1{
-			margin-top: -100px;
-		  margin-left: -10px;
-		  font-size: 20px;
-	  }
+			width: 100%;
+		}
+		.content{
+			margin-top: 50px;
+			margin-left: 50px;
+		}
+	 }
+	
+ @media screen and (max-width:912px){
+		.masthead{
+			width: 100%;
+			height: 50vh;
+		}
+		.content{
+			margin-top: 140px;
+			margin-left: 280px;
+		}
 	  
 	   }
 	
 	
 	 @media screen and (max-width:1024px){
 		.masthead{
-		  width: 100%;
-		  height:45vh;
-	  }
-	  .content h1{
-		  text-align: left;
-	  }
-	  .content h1{
-			margin-top: -100px;
-		  margin-left: -10px;
-		  font-size: 20px;
-	  }
+			width: 100%;
+			height: 50vh;
+		}
+		.content{
+			margin-top: 140px;
+			margin-left: 280px;
+		}
 	  
 	   }
 	
@@ -138,8 +138,6 @@
 		#navbar_top {
 			background-color: #000000;
 		}
-	
-	
 		#navbar_top  a{
 			color:#025196;
 			font-size: large;
@@ -157,6 +155,7 @@
 	/* end navbar section*/
 
  /*index design*/
+
  /* logo and website*/
  .logoAndWebsite{
 	width: 45%;
@@ -166,13 +165,7 @@
 	border-radius: 10px;
 
   }
-.logoAndWebsite p{
-	text-align: center;
-	/* color:black; */
-	font-size: 17px;
-	text-align: left;
-	font-family: 'lato';
-}
+
 .logoAndWebsite p a{
 	color: #025196;
 }
@@ -195,6 +188,7 @@
    .logoAndWebsite .socialMedia a i:hover{
 	color: red;
 }
+
 /*our mission section*/
  .about-us{
 	background: url(../img/Our-mission.jpeg) no-repeat left;
@@ -205,13 +199,6 @@
 	
   } 
    /*this section must be removed */
-  .about-us h1{
-	margin: auto;	
-	position: absolute;
-	top: 400px;
-	left: 10px;
-	font-size: 80px;
-  }
 
   .linerar-container{
 	width: 55%;
@@ -219,37 +206,14 @@
 	background-color: #fdfdfd;
 	padding: 80px;
   }
-  .linerar-container p{
-	font-size: 16px;
-	font-weight: 500px;
-	color:black;
-    padding:0 2rem;
-    /* line-height: 1.5em; */
-    text-align: left
-  }
+
   ul.a {
     list-style-type: circle;
     list-style-position: inside;
-   
-  
 }
-ul.a li{
-	font-size: 16px;
-	font-weight: 500px;
-	color:black;
-    text-align: left;
-    padding:0 2rem;
-	text-align: left
-}
-
-  
-
-/* read more p style  */
 /* end of iindex html*/
 
 /* start leadership .html style*/
-
-
 #more1, #more2, #more3, #more4, #more5, #more6, #more7, #more8, #more9, #more10, #more11, #more12{
 	display: none;
    } 
@@ -324,11 +288,9 @@ ul.a li{
 	.team .member .member-info h1{
 	  font-weight: bold;
 	  margin-bottom: 5px;
-	  letter-spacing: normal;
 	  text-align: left;
 	  font-size: 20px;
 	  color: black;
-	  /* letter-spacing:-0.1px; */
 	}
 	 .team .member .member-info span{
 	  font-size: 16px;
@@ -338,37 +300,142 @@ ul.a li{
 	  text-align: left;
 	}
   
-	.team .member .member-info p{
-	  font-size: 16px;
-	  font-weight: 700px;
-	  color:black;
-	  text-align: left;
-	  letter-spacing: normal;
-	}
 	.team .member .member-info p span{
-	  font-size: 16px;
-	  font-weight: 500px;
 	  color:black;
-	  text-align: left;
-	  letter-spacing: normal;
+
 	}
 	
-   section{
-	  padding: 60px 0;
-	  overflow: hidden;
-	  position: relative;
+
+  /* strart contact design*/ 
+  /*--------------------------------------------------------------
+# Contact
+--------------------------------------------------------------*/
+.contact .info-box {
+	color: #444444;
+	text-align: center;
+	/* margin: auto; */
+	box-shadow: 10px 10px 30px rgba(214, 215, 216, 0.3);
+	padding: 20px 0 30px 0;
+  }
+  
+  .contact .info-box i {
+	font-size: 32px;
+	color: #106eea;
+	border-radius: 50%;
+	padding: 8px;
+	border: 2px dotted #b3d1fa;
+  }
+  
+  .contact .info-box h3 {
+	font-size: 20px;
+	color: #777777;
+	font-weight: 700;
+	margin: 10px 0;
+  }
+  
+  .contact .info-box p {
+	padding: 0;
+	line-height: 24px;
+	font-size: 14px;
+	margin-bottom: 0;
+  }
+  
+  .contact .php-email-form {
+	box-shadow: 0 0 30px rgba(214, 215, 216, 0.4);
+	padding: 30px;
+  }
+  
+  .contact .php-email-form .error-message {
+	display: none;
+	color: #fff;
+	background: #ed3c0d;
+	text-align: left;
+	padding: 15px;
+	font-weight: 600;
+  }
+  
+  .contact .php-email-form .error-message br+br {
+	margin-top: 25px;
+  }
+  
+  .contact .php-email-form .sent-message {
+	display: none;
+	color: #fff;
+	background: #18d26e;
+	text-align: center;
+	padding: 15px;
+	font-weight: 600;
+  }
+  
+  .contact .php-email-form .loading {
+	display: none;
+	background: #fff;
+	text-align: center;
+	padding: 15px;
+  }
+  
+  .contact .php-email-form .loading:before {
+	content: "";
+	display: inline-block;
+	border-radius: 50%;
+	width: 24px;
+	height: 24px;
+	margin: 0 10px -6px 0;
+	border: 3px solid #18d26e;
+	border-top-color: #eee;
+	animation: animate-loading 1s linear infinite;
+  }
+  
+  .contact .php-email-form .form-group {
+	margin-bottom: 20px;
+  }
+  
+  .contact .php-email-form input,
+  .contact .php-email-form textarea {
+	border-radius: 0;
+	box-shadow: none;
+	font-size: 14px;
+  }
+  
+  .contact .php-email-form input:focus,
+  .contact .php-email-form textarea:focus {
+	border-color: #106eea;
+  }
+  
+  .contact .php-email-form input {
+	padding: 10px 15px;
+  }
+  
+  .contact .php-email-form textarea {
+	padding: 12px 15px;
+  }
+  
+  .contact .php-email-form button[type=submit] {
+	  text-align:center;
+		display:inline-block;
+		color:#333333;
+		padding:3px;
+		border: 8px inset rgb(138, 183, 221);
+		text-decoration:none;
+		font-weight: bold;
+  }
+  
+  .contact .php-email-form button[type=submit]:hover {
+	  border: 8px inset #e97775;
+		color:#333333;
+		font-weight: bold;
+  }
+  
+  @keyframes animate-loading {
+	0% {
+	  transform: rotate(0deg);
 	}
   
-	.section-bg{
-	  padding: 120px 0;
-	  color: #fff;
+	100% {
+	  transform: rotate(360deg);
 	}
+  }
   
-
-
-
-
-
   /* end contact design*/
 
 /* footer style*/
@@ -397,25 +464,11 @@ footer{
 	  padding: 100px 44px;
 
 	}
-	/* this section must bee remove*/
-	.about-us h1{
-		position: absolute;
-		top: 150px;
-		left: 10px;
-	  }
-
-	.linerar-container{
-	  width: 100%;
-	}
 
   }
 
   @media screen and (max-width: 940px ) {
-	.card{
-		width: 85%;
-		display: flex;
-		margin: 28px 0px;
-	  }
+
 	
 	#navbar  a{
 		color:#4174C0;
