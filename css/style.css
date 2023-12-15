@@ -1,3 +1,5 @@
+
+/*public style*/
 *{
 	margin:0;
 	padding:0;
@@ -175,10 +177,9 @@
 
 .logoAndWebsite .socialMedia{
 	display: flex; 
-}
-.logoAndWebsite .socialMedia{
 	font-size: 25px;
 }
+
 .logoAndWebsite .socialMedia a i{
 	padding: 0px 5px;
 	color: #025196;
@@ -198,8 +199,6 @@
 	padding: 100px;
 	
   } 
-   /*this section must be removed */
-
   .linerar-container{
 	width: 55%;
   	float: right;
@@ -213,27 +212,19 @@
 }
 /* end of iindex html*/
 
+
 /* start leadership .html style*/
 #more1, #more2, #more3, #more4, #more5, #more6, #more7, #more8, #more9, #more10, #more11, #more12{
 	display: none;
    } 
   
-  .row{
-	  margin-top: 30px;
-  }
-  a{
-	  color: #e03a3c;
-	}
-	a:hover{
-	  color: #e03a3c;
-	  text-decoration: none;
-	}
 	.align-items-stretch{
 		background-color: rgb(248, 248, 248);
 		border-radius: 10px;
+		margin: 15px 0;
 		width: 100%;
 		padding:10px 10px 2px 10px;
-		box-shadow: 0 8px 6px 0 rgba(0, 0, 0, 0.37);
+		box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.37);
 	  
 	  }
 
@@ -304,16 +295,70 @@
 	  color:black;
 
 	}
+	.team .member .member-info .btn{
+			text-align:center;
+			display:inline-block;
+			color:#333333;
+			padding:3px;
+			border: 8px inset rgb(138, 183, 221);
+			text-decoration:none;
+			font-weight: bold;
+		
+	  }
+	  .btn:hover{
+		border: 8px inset rgb(225, 91, 19);
+		color:#333333;
+		font-weight: bold;
+	  }  
 	
+/* start ccsi family*/
 
+.ccsi_famaily_container{
+	padding: 10px 0;
+	position: relative;
+	width: 70%;
+	margin: 20px auto 0 auto;
+	background-color: white;
+   
+
+}
+.section{
+	display: flex;
+	border-radius: 10px;
+	padding:40px;
+	box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.37);
+	
+}
+.section h4{
+	margin: 0%;
+	color: blue;
+}
+
+.section h4 a{
+	color:#025196;
+	text-decoration: none;
+	cursor: pointer;
+	font-size: 25px;
+	font-weight: 700;
+} 
+.section p{
+	color: black;
+	font-size: 17px;
+	font-weight: 500;
+	text-align:left;
+	
+}
+
+.section h4 a:hover{
+list-style: none;
+color: #025196;
+	
+} 
   /* strart contact design*/ 
-  /*--------------------------------------------------------------
-# Contact
---------------------------------------------------------------*/
+
 .contact .info-box {
 	color: #444444;
 	text-align: center;
-	/* margin: auto; */
 	box-shadow: 10px 10px 30px rgba(214, 215, 216, 0.3);
 	padding: 20px 0 30px 0;
   }
@@ -535,7 +580,6 @@ footer{
 	  padding:0px;
 
 	}
-	/* this section must bee remove*/
 	.about-us h1{
 		position: absolute;
 		top: 150px;
