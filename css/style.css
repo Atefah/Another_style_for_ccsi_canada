@@ -17,23 +17,22 @@
 
 	
  /* header style*/	
-
-	.masthead{
-		background-size: 100% 100%;
-		width: 100%;
-		height: 75vh;
-		
-	}
-	.content{
-		text-align: right;
-		margin-top: 100px;
-	}
-	.content h1{
-			font-size: 35px;
-			font-weight: bold;
-			text-align: left;
-			color:#025196;
-	}
+ .about-section {
+	background-image: url('../img/CCSI\ Canada\ background.png') ;
+	 width: 100%;
+	 background-position: center center;
+	 background-repeat: no-repeat;
+	 height: 80vh;
+	 background-size: cover;
+   
+ }
+ .about-section h1{
+	padding: 50px;
+	text-align: center;
+	font-size: 35px;
+	font-weight: bold;
+	color:#025196;
+ }
 
 	
 	/* navbar section */
@@ -107,6 +106,20 @@
 	background-color: #fdfdfd;
 	padding: 80px;
   }
+  .linerar-container  .btn{
+	text-align:center;
+	display:inline-block;
+	color:#333333;
+	padding:3px;
+	border: 8px inset rgb(138, 183, 221);
+	text-decoration:none;
+	font-weight: bold;
+  }
+  .linerar-container .btn:hover{
+	border: 8px inset #e97775;
+	color:#333333;
+	font-weight: bold;
+  } 
 
   ul.a {
     list-style-type: circle;
@@ -220,7 +233,7 @@
 	position: relative;
 	width: 70%;
 	margin: 20px auto 0 auto;
-	background-color: white;
+	background-color: rgb(248, 248, 248);
    
 
 }
@@ -229,11 +242,6 @@
 	border-radius: 10px;
 	padding:40px;
 	box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.37);
-	
-}
-.section h4{
-	margin: 0%;
-	color: blue;
 }
 
 .section h4 a{
@@ -243,19 +251,12 @@
 	font-size: 25px;
 	font-weight: 700;
 } 
-.section p{
-	color: black;
-	font-size: 17px;
-	font-weight: 500;
-	text-align:left;
-	
-}
 
 .section h4 a:hover{
-list-style: none;
-color: #025196;
-	
+	list-style: none;
+	color: #025196;
 } 
+
   /* strart contact design*/ 
 
 .contact .info-box {
@@ -395,38 +396,9 @@ footer{
 }
 /* end footer style*/
 	/*responsiivee*/
-	@media screen and (max-width:280px){
-		.masthead{
-			width: 100%;
-			display: block;
-		}
-		.content h1{
-			margin-top: 30px;
-			margin-left:-280px;
-			font-size: 20px;
-		}
-	
- }
- @media screen and (max-width:375px){
-	.masthead{
-		width: 100%;
-		display: block;
-	}
-	.content h1{
-		margin-top: 30px;
-		margin-left:-180px;
-		font-size: 20px;
-	}
 
-}
 @media screen and (max-width:412px){
-	  .masthead{
-		width: 100%;
-	}
-	.content{
-		  	margin-top: 180px;
-			margin-left: 130px;
-	}
+	
 	.linerar-container{
 		width: 100%;
 		display: block;
@@ -445,32 +417,16 @@ footer{
  }
 	
 @media screen and (max-width:414px){
-	  .masthead{
-		width: 100%;
-		display: block;
-	}
+	 
 	.linerar-container{
 		width: 100%;
 		display: block;
 	  }
 
-	.content h1{
-		margin-top: 30px;
-		margin-left:-180px;
-		font-size: 20px;
-	}
 	.logo { width: 170px;}
 	
 }
 @media screen and (max-width:430px){
-	.masthead{
-	  width: 100%;
-  }
-  .content h1{
-	margin-top: 30px;
-		margin-left:-180px;
-		font-size: 20px;
-  }
   .logo { width: 170px;
 }
   .linerar-container{
@@ -478,24 +434,9 @@ footer{
 	display: block;
   }
 }
-@media screen and (max-width:768px){
-	.masthead{
-	  width: 100%;
-  }
-  .content{
-	  margin-top: 180px;
-	  margin-left: 200px;
-  }
-  
-}
+
 @media screen and (max-width:820px){
-.masthead{
-	  width: 100%;
-  }
-  .content{
-	  margin-top: 180px;
-	  margin-left: 200px;
-  }
+
   #navbar  a{
 	color:#4174C0;
   }
@@ -526,27 +467,10 @@ footer{
 }
   
 }
-	
-@media screen and (max-width:540px){
-		.masthead{
-			width: 100%;
-		}
-		.content h1{
-			margin-top: 30px;
-			margin-left:-180px;
-			font-size: 20px;
-		  }
-}
+
 	
  @media screen and (max-width:912px){
-		.masthead{
-			width: 100%;
-			height: 50vh;
-		}
-		.content{
-			margin-top: 140px;
-			margin-left: 280px;
-		}
+
 		#navbar  a{
 			color:#4174C0;
 		
@@ -564,42 +488,17 @@ footer{
 			width: 100%;
 		}
 	
-		.box{
-			grid-template-columns: 1fr;
-			grid-template-rows: auto;
-			grid-template-areas:
-			 "form"
-			 "info";
-			 /* "map"; */
-		}
-		
-		.formBox .row50{
-			display: flex;
-			gap: 0;
-			flex-direction: column;
-	
-		}
 
 		.contact{
 			padding: 30px;
 		}
+		.logo{
+			width: 170px;
+		}
 	
 	  
 }
 	
-	
-@media screen and (max-width:1024px){
-		.masthead{
-			width: 100%;
-			height: 50vh;
-		}
-		.content{
-			margin-top:50px;
-			margin-left: 350px;
-		}
-	  
-}
-
 
 
 
