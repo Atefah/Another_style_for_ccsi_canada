@@ -248,3 +248,17 @@ window.addEventListener('scroll', function() {
     } 
 });
 }); 
+
+document.addEventListener('DOMContentLoaded', function() {
+  // Check for the section parameter in the URL
+  var urlParams = new URLSearchParams(window.location.search);
+  var targetSection = urlParams.get('deetailsSection');
+  
+  // If the section parameter is present, show the corresponding section
+  if (targetSection) {
+      var sectionToShow = document.getElementById(targetSection);
+      if (sectionToShow) {
+          sectionToShow.style.display = 'block';
+      }
+  }
+});
