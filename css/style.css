@@ -18,7 +18,7 @@
 	
  /* header style*/	
  .about-section {
-	background-image: url('../img/CCSI\ Canada\ background.png') ;
+	background-image: url('../img/CCSI\ Canada\ Background.jpeg') ;
 	 width: 100%;
 	 background-position: center center;
 	 background-repeat: no-repeat;
@@ -39,7 +39,7 @@
 	.logo { width: 450px;}
 	
 		#navbar_top {
-			background-color: #000000;
+			background-color: aliceblue;
 		}
 		#navbar_top  a{
 			color:#025196;
@@ -93,11 +93,11 @@
 
 /*our mission section*/
  .about-us{
-	background: url(../img/Our-mission.jpeg) no-repeat left;
+	background: url(../img/CCSI\ Canada\ Globe\ 3.jpeg) no-repeat left;
 	background-size: 50%;
-	background-color: aliceblue;
+	background-color: rgba(222,228,232,0.5);
 	overflow: hidden;
-	padding: 100px;
+	padding: 60px;
 	
   } 
   .linerar-container{
@@ -116,6 +116,21 @@
 	font-weight: bold;
   }
   .linerar-container .btn:hover{
+	border: 8px inset #e97775;
+	color:#333333;
+	font-weight: bold;
+  } 
+
+  .mainSection .btn{
+	text-align:center;
+	display:inline-block;
+	color:#333333;
+	padding:3px;
+	border: 8px inset rgb(138, 183, 221);
+	text-decoration:none;
+	font-weight: bold;
+  }
+  .mainSection .btn:hover{
 	border: 8px inset #e97775;
 	color:#333333;
 	font-weight: bold;
@@ -390,6 +405,7 @@
 footer{
 	/* background-image: linear-gradient(to right, white 50%,#025196); */
 	background-color: rgb(248, 248, 248);
+	/* background-color: aliceblue; */
 	
 }
 .footer-logo{
@@ -512,5 +528,4 @@ footer{
 	
   
 }
-
 
