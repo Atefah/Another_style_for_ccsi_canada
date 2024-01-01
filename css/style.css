@@ -17,22 +17,23 @@
 
 	
  /* header style*/	
- .about-section {
-	background-image: url('../img/CCSI\ Canada\ Background.jpeg') ;
+ /* .about-section { */
+	/* background-image: url('../img/background-Jan-CCSI-Canada2.jpg') ;
 	 width: 100%;
 	 background-position: center center;
 	 background-repeat: no-repeat;
-	 height: 80vh;
+	 height: 60vh;
 	 background-size: cover;
+	 background-attachment: fixed; */
    
- }
- .about-section h1{
+ /* } */
+ /* .about-section h1{
 	padding: 50px;
 	text-align: center;
 	font-size: 35px;
 	font-weight: bold;
 	color:#025196;
- }
+ } */
 
 	
 	/* navbar section */
@@ -93,7 +94,8 @@
 
 /*our mission section*/
  .about-us{
-	background: url(../img/CCSI\ Canada\ Globe\ 3.jpeg) no-repeat left;
+	background: url(../img/new\ small\ JAn-01.jpg) no-repeat left;
+
 	background-size: 50%;
 	background-color: rgba(222,228,232,0.5);
 	overflow: hidden;
