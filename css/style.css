@@ -41,6 +41,7 @@
 	
 		#navbar_top {
 			background-color: aliceblue;
+			border-bottom: 1px solid rgb(219, 212, 212);
 		}
 		#navbar_top  a{
 			color:#025196;
@@ -95,7 +96,6 @@
 /*our mission section*/
  .about-us{
 	background: url(../img/new\ small\ JAn-01.jpg) no-repeat left;
-
 	background-size: 50%;
 	background-color: rgba(222,228,232,0.5);
 	overflow: hidden;
@@ -250,7 +250,7 @@
 	position: relative;
 	width: 70%;
 	margin: 20px auto 0 auto;
-	background-color: rgb(248, 248, 248);
+	/* background-color: rgb(248, 248, 248); */
    
 
 }
@@ -407,6 +407,7 @@
 footer{
 	/* background-image: linear-gradient(to right, white 50%,#025196); */
 	background-color: rgb(248, 248, 248);
+	border-bottom: 1px solid rgb(170, 165, 165);
 	/* background-color: aliceblue; */
 	
 }
@@ -417,8 +418,7 @@ footer{
 	/*responsiivee*/
 
 @media screen and (max-width:412px){
-	
-	.linerar-container{
+.linerar-container{
 		width: 100%;
 		display: block;
   
@@ -448,10 +448,12 @@ footer{
 @media screen and (max-width:430px){
   .logo { width: 170px;
 }
-  .linerar-container{
+.linerar-container{
 	width: 100%;
 	display: block;
+
   }
+
 }
 
 @media screen and (max-width:820px){
@@ -473,13 +475,13 @@ footer{
   padding:0px;
 
 }
-.about-us h1{
+/* .about-us h1{
 	position: absolute;
 	top: 150px;
 	left: 50px;
 	font-size: 50px;
 	
-	}
+	}  */
 
 .linerar-container{
   padding: 60px;
@@ -527,8 +529,12 @@ footer{
 	  .team .member .member-info p {
 		font-size: 16px;
 	  }
+	  .linerar-container{
+
+		padding: 50px;
+	  }
 	
-  
+	
 }
 
 
