@@ -6,6 +6,7 @@
 	overflow:inherit;
 	box-sizing:border-box;
 	font-family: 'lato';
+	
 }
 
  body p{
@@ -13,49 +14,30 @@
 	text-align: left;
 	font-family: 'lato';
 	color: #000000;	
+	
 }
 
-	
- /* header style*/	
- /* .about-section { */
-	/* background-image: url('../img/background-Jan-CCSI-Canada2.jpg') ;
-	 width: 100%;
-	 background-position: center center;
-	 background-repeat: no-repeat;
-	 height: 60vh;
-	 background-size: cover;
-	 background-attachment: fixed; */
-   
- /* } */
- /* .about-section h1{
-	padding: 50px;
-	text-align: center;
-	font-size: 35px;
-	font-weight: bold;
-	color:#025196;
- } */
 
-	
 	/* navbar section */
-	.logo { width: 450px;}
-	
-		#navbar_top {
-			background-color: aliceblue;
-			border-bottom: 1px solid rgb(219, 212, 212);
-		}
-		#navbar_top  a{
-			color:#025196;
-			font-size: large;
-			font-weight: bold;
-		}
-		#navbar_top a.active {
-			color: #f53533;
-			
-		}
-		#navbar_top a:hover {
-			color:rgb(105, 157, 201);
-	
-		}
+.logo { width: 450px;}
+
+	#navbar_top {
+		background-color: aliceblue;
+		border-bottom: 1px solid rgb(219, 212, 212);
+	}
+	#navbar_top  a{
+		color:#025196;
+		font-size: large;
+		font-weight: bold;
+	}
+	#navbar_top a.active {
+		color: #f53533;
+		
+	}
+	#navbar_top a:hover {
+		color:rgb(105, 157, 201);
+
+	}
 	
 	/* end navbar section*/
 
@@ -93,35 +75,35 @@
 	color: red;
 }
 
+
 /*our mission section*/
- .about-us{
-	background: url(../img/new\ small\ JAn-01.jpg) no-repeat left;
-	background-size: 50%;
-	background-color: rgba(222,228,232,0.5);
-	overflow: hidden;
-	padding: 100px;
-	
-  } 
-  .linerar-container{
-	width: 55%;
-  	float: right;
-	background-color: #fdfdfd;
-	padding: 80px;
+.globe{
+	animation: fadeInUp 2s ease;
+}
+.mainSection{
+	animation: fadeRight 2s ease;
+}
+@keyframes fadeInUp{
+  0%{
+	opacity: 0;
+	transform: translateY(50px);
   }
-  .linerar-container  .btn{
-	text-align:center;
-	display:inline-block;
-	color:#333333;
-	padding:3px;
-	border: 8px inset rgb(138, 183, 221);
-	text-decoration:none;
-	font-weight: bold;
+  100%{
+	opacity: 1;
+	transform: translateY(0px);
   }
-  .linerar-container .btn:hover{
-	border: 8px inset #e97775;
-	color:#333333;
-	font-weight: bold;
-  } 
+}
+
+@keyframes fadeRight{
+  0%{
+	opacity: 0;
+	transform: translateX(-50px);
+  }
+  100%{
+	opacity: 1;
+	transform: translateX(0px);
+  }
+}
 
   .mainSection .btn{
 	text-align:center;
@@ -225,6 +207,7 @@
   
 	.team .member .member-info p span{
 	  color:black;
+	  font-family: 'Garamond';
 
 	}
 	.team .member .member-info .btn{
@@ -405,24 +388,18 @@
 
 /* footer style*/
 footer{
-	/* background-image: linear-gradient(to right, white 50%,#025196); */
+	
 	background-color: rgb(248, 248, 248);
 	border-bottom: 1px solid rgb(170, 165, 165);
-	/* background-color: aliceblue; */
 	
 }
 .footer-logo{
     width:100%;
 }
 /* end footer style*/
-	/*responsiivee*/
+/*responsiivee*/
 
 @media screen and (max-width:412px){
-.linerar-container{
-		width: 100%;
-		display: block;
-  
-	  }
 	  .logoAndWebsite{
 		width: 100%;
 		margin: auto;
@@ -436,23 +413,14 @@ footer{
  }
 	
 @media screen and (max-width:414px){
-	 
-	.linerar-container{
-		width: 100%;
-		display: block;
-	  }
-
-	.logo { width: 170px;}
+	
+.logo { width: 170px;}
 	
 }
 @media screen and (max-width:430px){
   .logo { width: 170px;
 }
-.linerar-container{
-	width: 100%;
-	display: block;
 
-  }
 
 }
 
@@ -470,26 +438,8 @@ footer{
   #navbar a:hover {
 	color: #0462ef;
   }
-
-.about-us{
-  padding:0px;
-
-}
-/* .about-us h1{
-	position: absolute;
-	top: 150px;
-	left: 50px;
-	font-size: 50px;
-	
-	}  */
-
-.linerar-container{
-  padding: 60px;
-}
   
 }
-
-	
  @media screen and (max-width:912px){
 
 		#navbar  a{
@@ -516,8 +466,6 @@ footer{
 		.logo{
 			width: 170px;
 		}
-	
-	  
 }
 	
 
