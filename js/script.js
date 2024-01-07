@@ -236,12 +236,10 @@ window.addEventListener('scroll', function() {
       navbar_height = document.querySelector('.navbar').offsetHeight;
       document.body.style.paddingTop = navbar_height + 'px';
       document.getElementById('navbar_top').style.backgroundColor="rgb(248, 248, 248)";
-      // document.getElementById('link').style.color="black";
       
     } else {
       document.getElementById('navbar_top').classList.remove('fixed-top');
-      document.getElementById('navbar_top').style.backgroundColor="#fffff7";
-      // document.getElementById('link').style.color="white";
+      document.getElementById('navbar_top').style.backgroundColor="rgb(248, 248, 248)";
      
        // remove padding top from body
       document.body.style.paddingTop = '0';
@@ -249,16 +247,16 @@ window.addEventListener('scroll', function() {
 });
 }); 
 
-document.addEventListener('DOMContentLoaded', function() {
+// document.addEventListener('DOMContentLoaded', function() {
   // Check for the section parameter in the URL
-  var urlParams = new URLSearchParams(window.location.search);
-  var targetSection = urlParams.get('deetailsSection');
+  // var urlParams = new URLSearchParams(window.location.search);
+  // var targetSection = urlParams.get('deetailsSection');
   
   // If the section parameter is present, show the corresponding section
-  if (targetSection) {
-      var sectionToShow = document.getElementById(targetSection);
-      if (sectionToShow) {
-          sectionToShow.style.display = 'block';
-      }
-  }
-});
+//   if (targetSection) {
+//       var sectionToShow = document.getElementById(targetSection);
+//       if (sectionToShow) {
+//           sectionToShow.style.display = 'block';
+//       }
+//   }
+// });
